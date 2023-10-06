@@ -10,6 +10,8 @@
 /* some globals */
 * {
     box-sizing: border-box;
+    /* font-family: 'Fira Code', monospace; */
+    /* font-family: 'Source Code Pro', monospace; */
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
