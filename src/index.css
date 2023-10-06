@@ -1,10 +1,20 @@
 /*
  * Add a description.
  */
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;600&family=Source+Code+Pro:wght@200;400;500;700&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-.shadow {
+/* some globals */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+.text-shadow {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
